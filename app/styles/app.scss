@@ -1,0 +1,30 @@
+$top-bottom-space: 1em;
+$site-title-color: #656566;
+$site-title-font: 'Arial', sans-serif;
+$site-text-color: #59c4e3;
+
+.navbar-text-title {
+  cursor: default;
+  color: $site-text-color;
+}
+
+.title-text {
+  margin-top: $top-bottom-space;
+  margin-bottom: $top-bottom-space;
+  cursor: default;
+  font-family: $site-title-font;
+  color: $site-title-color;
+}
+
+input[type=search] {
+  box-shadow: none;
+}
+
+.welcome-text {
+  color: $site-text-color;
+}
+
+.title-text--about-text {
+  padding: 2em;
+  border: 1px solid #59c4e3;
+}

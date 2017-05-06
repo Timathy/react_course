@@ -11,8 +11,8 @@ var React = require('react');
 const About = (props) => {
   return (
     <div>
-      <h2 className="text-center">About </h2>
-      <p className="welcome-text text-center">
+      <h2 className="text-center title-text">About </h2>
+      <p className="welcome-text text-center title-text--about-text">
         Welcome to the About page for the React Weather!
         <br/><br/>
         The React Weather app uses an API that fetches weather data

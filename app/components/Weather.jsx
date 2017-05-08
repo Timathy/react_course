@@ -50,8 +50,8 @@ var Weather = React.createClass({
     }
   },
 
-  componentWillReceiveProps: function (newProps) {
-    var location = newProps.location.query.location;
+  componentWillReceiveProps: function (currProps) {
+    var location = currProps.location.query.location;
 
     if (location && location.length > 0) {
       this.handleWeatherData(location);
